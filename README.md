@@ -50,6 +50,9 @@ _Docs denoted by all-caps filename_
     - [`./external-dns/README`](charts/external-dns/README.md)
 - [`./deployment/README`](deployment/README.md): Terraform Deployment
 
+Actions:
+- [![GitHub Super-Linter](https://github.com/grouphouse-io/grouphouse/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
+
 ## Community Code-Amendment Best Practices 
 - Don't commit directly to master, make PRs. 
 - PRs should be reviewed and be required to have a +1 from non-contributor to the PR.
