@@ -379,7 +379,7 @@ html, body {margin:0;padding:0;height:100%;scroll-behavior: smooth; background-c
 }
 
 .community-image {
-    background-image:  url("/images/grouphouse-community.png");
+    background-image:  url("/images/grouphouse-community-min.png");
     z-index: 0;
     background-size: cover;
     width: 100%;
