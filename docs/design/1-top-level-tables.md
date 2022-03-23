@@ -17,7 +17,13 @@
 - `Capability`: Maps to some kind of defined permission: endpoints, feature flags, UI, applications etc. The intention of capabilities is to be widely extensible. A `Role` mapped to a `Capability` (via `CapabilitySet`) will be allowed. (`Capability` : N `CapabilitSet`)
 - `Factor`: Maps to some kind of secret that anchors a person to a `User`. Types include `password`, `yubikey`, `mfa`, etc. 
 
+- `Session`: 
+- `CapabilityUnionSet`: 
+
 // TODO: Find some kind of modeling language to write out these relationships -- UML?
+
+// TODO: NOT-capability? 
+// TODO: Express example capabilities in another section, eg truant member (penalize then with non-capabilities)
 
 ## Resource Relations
 
@@ -68,8 +74,6 @@ CREATE TABLE roles (
 CREATE TABLE capabilities (
 
 );
-
-Cr
 
 ```
 
