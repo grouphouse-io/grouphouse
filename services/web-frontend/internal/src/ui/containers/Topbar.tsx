@@ -13,11 +13,10 @@ export class Topbar extends React.Component {
           <a className="header-link" href={`${origin}#problem`}>Problem</a>
           <a className="header-link" href={`${origin}#mission`}>Mission</a>
           <a className="header-link" href={`${origin}#method`}>Method</a>
+          <a className="header-link" href={`${origin}#incentives`}>Incentives</a>
+          <a className="header-link" href={`${origin}#code`}>Code</a>
           <a className="header-link header-emphasis" href={`${origin}#community`}>Join the Community</a>
         </div>
-        {/*<a href="/login" id="login-icon">
-          <img src="/images/logos/user_icon.png" alt="Login Icon" id="login-icon-header"/>
-        </a>*/}
       </div>
     );
   }
