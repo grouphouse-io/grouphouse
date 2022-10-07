@@ -61,7 +61,7 @@ export class Storyline extends React.Component<PropsType> {
 
         <div className="community-section-transition"></div>
 
-        <div className="storyline-section-grey">
+        <div id="community" className="storyline-section-grey">
           <div className="image-container">
             <div className="community-image-wrapper">
               <div className="community-image-triangle-right triangle-1-right"></div>
@@ -94,7 +94,7 @@ export class Storyline extends React.Component<PropsType> {
             </div>
             <div className="community-centered community-image-text">
               <div className="community-section-title">
-                <div id="community">Community</div>
+                <div>Community</div>
               </div>
               <div className="community-section-hook">The smallest steps are the bravest.</div>
             </div>
