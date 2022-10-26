@@ -40,7 +40,7 @@ export class Storyline extends React.Component<PropsType> {
           </div>
           <img src="/images/grouphouse-flower.jpg" className="storyline-image-right"alt="Hope"></img>
           <div className="storyline-section-text-left">
-            Home means safety. Our mission is to rebuild community through intentional group-living, so that you can find your people and your home.
+            Home means safety. Our mission is to rebuild community through intentional groupliving, so that you can find your people and your home.
           </div>
         </div>
         <div className="transition-skew-left-flush-bottom"></div>
@@ -54,7 +54,7 @@ export class Storyline extends React.Component<PropsType> {
           </div>
           <img src="/images/grouphouse-tea2.jpg" className="storyline-image-left" alt="Tea"></img>
           <div className="storyline-section-text-right">
-            Group-living requires skin in the game.
+            Groupliving requires skin in the game.
             It's hard. But you get out what you put in. We crowdsource tools to make it easier.
           </div>
         </div>
